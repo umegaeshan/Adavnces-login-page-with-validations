@@ -2,7 +2,7 @@
 // Function to check if register form inputs are empty
 function inputsEmptyRegister($first_name, $last_name, $email, $mobile, $password, $confirm_password)
 {
-    return empty($first_name) || empty($last_name) || empty($email) || empty($mobile) || empty($password) || empty($confirm_password);
+    return (empty ($first_name) || empty($last_name) || empty($email) || empty($mobile) || empty($password) || empty($confirm_password));
 }
 
 // Check if names are invalid
